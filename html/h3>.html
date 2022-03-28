@@ -16,5 +16,12 @@
     <li>thunder</li>
     <li>other cats</li>
   </ol>
-  <input type="text" placeholder="cat photo URL">
+  <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+
+    <label for="loving"><input id="loving" type="checkbox" name="personality">Loving</label>
+    <label for="playful"><input id="playful" type="checkbox" name="personality">Playful</label>
+    <label for="bully"><input id="bully" type="checkbox" name="personality">Bully</label>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
 </main>
